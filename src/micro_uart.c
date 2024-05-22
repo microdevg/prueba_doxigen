@@ -12,11 +12,21 @@
 
 
 micro_error_t micro_uart_init(uart_host_t uart, uint32_t baudrate,uint32_t parity,uint32_t bits){
-    micro_error_t err ;
+    micro_error_t err = MICRO_OK;
     printf("[UART%u] Inicio interfaz uart\n",uart);
     printf(PARAMETER_PRINT_PARITY,PARAMETER_ON_OFF(parity));
     printf(PARAMETER_PRINT_BIT_START_END,PARAMETER_ON_OFF(bits));
     return err;
 }
 
+
+
+
+micro_error_t micro_uart_print(uart_host_t uart, const char* message){
+    micro_error_t err = MICRO_OK;
+    printf("[UART%u]%s",uart,message);
+
+
+    return err;
+}
 

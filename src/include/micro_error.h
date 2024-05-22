@@ -1,6 +1,8 @@
 #ifndef _ERROR_H
 #define _ERROR_H
 
+#include "micro.h"
+
 typedef enum {
     MICRO_OK,                   //> Resultado correcto de la operación
     MICRO_ERROR_FAIL,           //> La operación fallo
