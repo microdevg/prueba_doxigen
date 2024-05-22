@@ -1,13 +1,19 @@
 #ifndef _ERROR_H
 #define _ERROR_H
 
-#include "micro.h"
 
+
+
+
+/**
+ * @enum Error
+ * @brief Enumeración de posibles error que pueden retornar las funciones.
+ */
 typedef enum {
-    MICRO_OK,                   //> Resultado correcto de la operación
-    MICRO_ERROR_FAIL,           //> La operación fallo
-    MICRO_ERROR_NO_MEM,         //> Error por falta de memoria
-    MICRO_ERROR_UNKNOWN         //> Error desconocido
+    MICRO_OK,                   /**< Retorno con éxito */
+    MICRO_ERROR_FAIL,           /**< Retorno fallo */
+    MICRO_ERROR_NO_MEM,         /**< Retorno fallo falta de memoria */
+    MICRO_ERROR_UNKNOWN         /**< Retorno fallo desconocido */
 
 } micro_error_t;
 

@@ -5,11 +5,15 @@
 
 
 typedef enum {
-    UART_0  =(uint32_t)0,
-    UART_1  =(uint32_t)1,
-    UART_2  =(uint32_t)2,
-    UART_3  =(uint32_t)3,
+    UART_0  =(uint32_t)0, /**< UART 0 */
+    UART_1  =(uint32_t)1, /**< UART 1 */
+    UART_2  =(uint32_t)2, /**< UART 2 */
+    UART_3  =(uint32_t)3, /**< UART 3 */
 } uart_host_t;
+
+
+
+
 
 
 
