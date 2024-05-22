@@ -193,7 +193,7 @@ INPUT                  = src src/include
 # comment), *.py, *.pyw, *.f90, *.f95, *.f03, *.f08, *.f18, *.f, *.for, *.vhd,
 # *.vhdl, *.ucf, *.qsf and *.ice.
 
-FILE_PATTERNS          = *.c *.h
+FILE_PATTERNS          = *.c *.h \
                          *.cpp \
                          *.h \
 

@@ -6,7 +6,7 @@
 
 
 /**
- * @enum Error
+ * @enum micro_error_t
  * @brief Enumeración de posibles error que pueden retornar las funciones.
  */
 typedef enum {
